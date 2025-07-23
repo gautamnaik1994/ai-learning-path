@@ -1,7 +1,7 @@
 nav:
   - Home: index.md
   - Prerequisites: prerequisites.md
-  - ML Learning Path: machine-learning-path/index.md
-  - DL Learning Path: deep-learning-path/index.md
-  - Gen AI Learning Path: gen-ai-learning-path/index.md
-  
+  - Gen AI Learning Path:
+      - Rag: gen-ai-learning-path/rag.md
+      - Agents: gen-ai-learning-path/agents.md
+      - MCP: gen-ai-learning-path/mcp.md
