@@ -4,6 +4,5 @@ This repository provides a structured learning path for mastering AI and Machine
 
 ## Learning Paths
 
-If you are trying to learn Generative AI, you need to have at least basic understanding of Machine Learning. [Machine Learning](/machine-learning/)
-
-After that, you can follow the [Generative AI Learning Path](/gen-ai-learning-path/).
+If you are trying to learn Generative AI, you need to have at least basic understanding of Machine Learning.
+After that, you can follow the Gen AI Learning Path.
