@@ -1,6 +1,8 @@
 nav:
   - Home: index.md
   - Prerequisites: prerequisites.md
+  - Machine Learning:
+      - Introduction: machine-learning/index.md
   - Gen AI Learning Path:
       - Introduction: gen-ai-learning-path/index.md
       - Rag: gen-ai-learning-path/rag.md

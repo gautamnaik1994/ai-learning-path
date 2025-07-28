@@ -100,6 +100,7 @@ Before diving into Generative AI, ensure you have a understanding of the followi
 
 ### Resources
 
+- [Enterprise AI Tutorial – Embeddings, RAG, and Multimodal Agents Using Amazon Nova and Bedrock](https://www.youtube.com/watch?v=HaUe2AN210g&t=6184s&ab_channel=freeCodeCamp.org) - Watch at 2x speed
 - [Agentic AI With LangGraph](https://www.youtube.com/playlist?list=PLZoTAELRMXVPFd7JdvB-rnTb_5V26NYNO)
 - [Introduction to LangGraph](https://academy.langchain.com/collections)
 
