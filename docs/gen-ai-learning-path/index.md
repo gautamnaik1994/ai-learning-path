@@ -38,6 +38,7 @@ Before diving into Generative AI, ensure you have a understanding of the followi
 
 #### Courses
 
+- [Daily Dose of Data Science](https://www.dailydoseofds.com/) I highly recommend this resource for practical AI ML skills. This is a paid resource but worth the investment.
 - [https://developers.google.com/machine-learning/crash-course](https://developers.google.com/machine-learning/crash-course)
 
 ### Projects
