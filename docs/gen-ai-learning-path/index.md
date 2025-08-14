@@ -38,7 +38,6 @@ Before diving into Generative AI, ensure you have a understanding of the followi
 
 #### Courses
 
-- [Daily Dose of Data Science](https://www.dailydoseofds.com/) I highly recommend this resource for practical AI ML skills. This is a paid resource but worth the investment.
 - [https://developers.google.com/machine-learning/crash-course](https://developers.google.com/machine-learning/crash-course)
 
 ### Projects
@@ -65,8 +64,10 @@ Before diving into Generative AI, ensure you have a understanding of the followi
 
 #### Courses
 
+- [Daily Dose of Data Science](https://www.dailydoseofds.com/) I highly recommend this blog for practical AI skills. This is a paid resource but worth the investment. If possible subscribe for Lifetime membership.
 - [LLM Course by Hugging Face](https://huggingface.co/learn/llm-course/chapter1/1)
 - [LangChain Mastery in 2025 | Full 5 Hour Course LangChain v0.3](https://www.youtube.com/watch?v=Cyv-dgv80kE&ab_channel=JamesBriggs)
+- [Complete Gen AI Langchain](https://www.udemy.com/course/complete-generative-ai-course-with-langchain-and-huggingface/?couponCode=MT130825C) - This is paid Udemy course. The course is 54hrs, but start from "Intro to GenAI module"
 
 #### Vector DBs
 
