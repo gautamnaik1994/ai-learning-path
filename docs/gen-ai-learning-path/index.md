@@ -131,3 +131,20 @@ Before diving into Generative AI, ensure you have a understanding of the followi
 - Familiarity with Backend frameworks (Flask, FastAPI) for building APIs.
 - Knowledge of CI/CD pipelines for model deployment.
 - Monitoring and logging practices for production systems.
+
+## Additional subscriptions
+
+### DataCamp
+
+If one wants to follow a structured learning path, I highly recommend subscribing to [DataCamp](https://www.datacamp.com/). They offer a wide range of courses on data science and AI topics, including hands-on projects and exercises. They have inbuilt editor features that make it easy to practice coding directly in the browser.
+I personally haven't subscribed to DataCamp, but they occasionally run promotions where entire platform is free for few days.
+
+Try their free version where first chapter of every course is available for free.
+
+### Coursera
+
+[Coursera](https://www.coursera.org/) is another excellent platform for structured learning. These courses are very exhaustive and takes a lot of time to complete, but they provide a deep understanding of the subject matter. There is a small option on most courses where one can subscribe to course in audit mode for free. It means that you can access course materials without a certificate.
+
+### DeepLearning.AI
+
+[DeepLearning.AI](https://www.deeplearning.ai/) offers a variety of courses focused on deep learning and AI. Their courses are well-structured and provide a solid foundation in the subject matter. I am not sure about the pricing details, but whichever course I have attended has been free.
