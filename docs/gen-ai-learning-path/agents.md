@@ -29,3 +29,7 @@ CEO will delegate tasks to team leaders, who will further delegate to their team
 
 - [Agentic AI With LangGraph](https://www.youtube.com/playlist?list=PLZoTAELRMXVPFd7JdvB-rnTb_5V26NYNO)
 - [Introduction to LangGraph](https://academy.langchain.com/collections)
+- [Build Deep Reseach Agent USing LangGraph](https://academy.langchain.com/courses/deep-research-with-langgraph)
+- [Build smart email agent using LangGraph](https://academy.langchain.com/courses/ambient-agents)
+
+Both above courses by Langchain academy are free. They are very good resources to learn about agents and LangGraph. They might feel slightly complex, but watching it twice will help.

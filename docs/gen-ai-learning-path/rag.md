@@ -33,6 +33,7 @@ Retrieval-Augmented Generation (RAG) is a powerful technique that combines the s
 ### Resources
 
 * [Learn RAG From Scratch – Python AI Tutorial from a LangChain Engineer](https://www.youtube.com/watch?v=sVcwVQRHIc8&t=3874s&ab_channel=freeCodeCamp.org)
+* [Ultimate RAG Bootcamp Udemy Course](https://www.udemy.com/course/ultimate-rag-bootcamp-using-langchainlanggraph-langsmith/)
 
 ## Intermediate
 

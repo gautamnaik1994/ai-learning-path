@@ -34,6 +34,11 @@ Once you feel comfortable with the basics of machine learning, visit Kaggle webs
 They have a inbuilt code editor and you can run your code in the browser without installing anything on your local machine.
 Also, they regularly host competitions where you can apply your skills to real-world problems. Here is the link to the website: [Kaggle](https://www.kaggle.com/)
 
+### Some more links
+
+- [Machine Learning Mastery](https://machinelearningmastery.com/blog/)
+- [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
+
 ## Maths and Statistics
 
 Once you are comfortable with the basics of machine learning, and its libraries, you can start learning about the mathematical and statistical concepts that underpin machine learning algorithms.  
