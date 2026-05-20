@@ -1,12 +1,18 @@
 nav:
   - Home: index.md
   - Prerequisites: prerequisites.md
+  - Foundations:
+      - Math Essentials: foundations/math-essentials.md
+      - Glossary: foundations/glossary.md
+      - Learning Paths by Goal: foundations/roadmap.md
   - Machine Learning:
       - Introduction: machine-learning/index.md
   - Deep Learning:
       - Introduction: deep-learning/index.md
   - Gen AI Learning Path:
       - Introduction: gen-ai-learning-path/index.md
-      - Rag: gen-ai-learning-path/rag.md
+      - RAG: gen-ai-learning-path/rag.md
       - Agents: gen-ai-learning-path/agents.md
       - MCP: gen-ai-learning-path/mcp.md
+      - Production Deployment: gen-ai-learning-path/production.md
+  - Common Issues & Solutions: common-issues.md
