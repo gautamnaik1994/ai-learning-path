@@ -1,0 +1,1813 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../foundations/roadmap/">
+      
+      
+        <link rel="next" href="../deep-learning/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Introduction - AI Learning Path</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#machine-learning" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="AI Learning Path" class="md-header__button md-logo" aria-label="AI Learning Path" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AI Learning Path
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Introduction
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/gautamnaik1994/ai-learning-path" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    ai-learning-path
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="AI Learning Path" class="md-nav__button md-logo" aria-label="AI Learning Path" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    AI Learning Path
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/gautamnaik1994/ai-learning-path" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    ai-learning-path
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prerequisites/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prerequisites
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Foundations
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Foundations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../foundations/math-essentials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Math Essentials
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../foundations/glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../foundations/roadmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning Paths by Goal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Machine Learning
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Machine Learning
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-youll-learn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What You'll Learn
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pre-requisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pre-requisites
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resources
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-concepts-beginner-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Concepts: Beginner Level
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Concepts: Beginner Level">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#supervised-learning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supervised Learning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unsupervised-learning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unsupervised Learning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#train-test-split" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Train-Test Split
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#model-evaluation-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model Evaluation Metrics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overfitting-vs-underfitting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overfitting vs. Underfitting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#feature-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Feature Engineering
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workflow-for-building-ml-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workflow for Building ML Models
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-algorithms-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Algorithms Overview
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Common Algorithms Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#linear-regression" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linear Regression
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logistic-regression" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Logistic Regression
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#decision-trees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Decision Trees
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#random-forest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Random Forest
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#support-vector-machines-svm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Support Vector Machines (SVM)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#k-nearest-neighbors-knn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        K-Nearest Neighbors (KNN)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#naive-bayes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Naive Bayes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#k-means-clustering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        K-Means Clustering
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practical-tips-for-success" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practical Tips for Success
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Next Steps
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Next Steps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#machine-hack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Machine Hack
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kaggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kaggle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#some-more-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Some more links
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#maths-and-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Maths and Statistics
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deep Learning
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Deep Learning
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../deep-learning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gen AI Learning Path
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Gen AI Learning Path
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gen-ai-learning-path/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gen-ai-learning-path/rag/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RAG
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gen-ai-learning-path/agents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Agents
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gen-ai-learning-path/mcp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MCP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gen-ai-learning-path/production/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Production Deployment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../common-issues/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Common Issues & Solutions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-youll-learn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What You'll Learn
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pre-requisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pre-requisites
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resources
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#core-concepts-beginner-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Concepts: Beginner Level
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Concepts: Beginner Level">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#supervised-learning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supervised Learning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unsupervised-learning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unsupervised Learning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#train-test-split" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Train-Test Split
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#model-evaluation-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Model Evaluation Metrics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overfitting-vs-underfitting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overfitting vs. Underfitting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#feature-engineering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Feature Engineering
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workflow-for-building-ml-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workflow for Building ML Models
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-algorithms-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Algorithms Overview
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Common Algorithms Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#linear-regression" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linear Regression
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logistic-regression" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Logistic Regression
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#decision-trees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Decision Trees
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#random-forest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Random Forest
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#support-vector-machines-svm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Support Vector Machines (SVM)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#k-nearest-neighbors-knn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        K-Nearest Neighbors (KNN)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#naive-bayes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Naive Bayes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#k-means-clustering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        K-Means Clustering
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practical-tips-for-success" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Practical Tips for Success
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#next-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Next Steps
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Next Steps">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#machine-hack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Machine Hack
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kaggle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kaggle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#some-more-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Some more links
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#maths-and-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Maths and Statistics
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/gautamnaik1994/ai-learning-path/edit/main/docs/machine-learning/index.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="machine-learning">Machine Learning</h1>
+<p>Machine Learning is the practice of building systems that learn patterns from data without explicit programming. This section covers the journey from fundamentals through practical applications.</p>
+<h2 id="what-youll-learn">What You'll Learn</h2>
+<p>By the end of this section, you'll understand:</p>
+<ul>
+<li>Core ML concepts: supervised vs. unsupervised learning</li>
+<li>How to build, evaluate, and improve ML models</li>
+<li>When to use different algorithms and techniques</li>
+<li>How to avoid common pitfalls (overfitting, data leakage, etc.)</li>
+</ul>
+<h2 id="pre-requisites">Pre-requisites</h2>
+<p>Before diving into machine learning, ensure you have:</p>
+<ul>
+<li><strong>Python fundamentals</strong>: variables, loops, functions, libraries (NumPy, Pandas)</li>
+<li><strong>Google Colab or Jupyter Notebooks</strong> for interactive coding</li>
+<li><strong>Basic understanding</strong> of the <a href="../foundations/math-essentials/">Math Essentials</a> (linear algebra, statistics)</li>
+</ul>
+<h2 id="resources">Resources</h2>
+<p>If you want small videos, try the following playlist. I highly recommend it. Also check other playlists on the channel. These are very important for understanding the concepts.</p>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF">Machine Learning by StatQuest</a></li>
+</ul>
+<p>One can start also with the following courses, Try both.</p>
+<ul>
+<li><a href="https://developers.google.com/machine-learning/crash-course">https://developers.google.com/machine-learning/crash-course</a></li>
+<li><a href="https://www.youtube.com/watch?v=i_LwzRVP7bg&amp;ab_channel=freeCodeCamp.org">Machine Learning for Everybody – Full Course</a></li>
+</ul>
+<hr />
+<h2 id="core-concepts-beginner-level">Core Concepts: Beginner Level</h2>
+<h3 id="supervised-learning">Supervised Learning</h3>
+<p>Supervised learning uses <strong>labeled data</strong> (input-output pairs) to train models. The model learns the mapping from inputs to outputs.</p>
+<p><strong>Two main types:</strong></p>
+<ol>
+<li><strong>Regression</strong> - Predicting continuous numerical values</li>
+<li>Example: Predict house prices based on size, location, bedrooms</li>
+<li>Common algorithms: Linear Regression, SVR, Random Forest</li>
+<li>
+<p>Evaluation: MAE, RMSE, R² score</p>
+</li>
+<li>
+<p><strong>Classification</strong> - Predicting discrete categories</p>
+</li>
+<li>Example: Spam detection (spam / not spam), image classification (cat / dog / bird)</li>
+<li>Common algorithms: Logistic Regression, Decision Trees, SVM, Naive Bayes</li>
+<li>Evaluation: Accuracy, Precision, Recall, F1-score, ROC-AUC</li>
+</ol>
+<p><strong>Key concept:</strong> The model "learns" a function that maps features (X) to targets (y).</p>
+<h3 id="unsupervised-learning">Unsupervised Learning</h3>
+<p>Unsupervised learning works with <strong>unlabeled data</strong> to find hidden patterns or structure.</p>
+<p><strong>Main types:</strong></p>
+<ol>
+<li><strong>Clustering</strong> - Grouping similar data points</li>
+<li>Example: Customer segmentation for marketing</li>
+<li>Common algorithms: K-Means, Hierarchical Clustering, DBSCAN</li>
+<li>
+<p>Challenge: How many clusters? No ground truth.</p>
+</li>
+<li>
+<p><strong>Dimensionality Reduction</strong> - Reducing number of features while preserving information</p>
+</li>
+<li>Example: Compress 1000 features to 50 while keeping patterns</li>
+<li>Common algorithms: PCA, t-SNE, UMAP</li>
+<li>Benefit: Faster training, easier visualization, reduce noise</li>
+</ol>
+<h3 id="train-test-split">Train-Test Split</h3>
+<p>Always split data into:</p>
+<ul>
+<li><strong>Training set</strong> (~70-80%): Used to train the model</li>
+<li><strong>Test set</strong> (~20-30%): Used to evaluate model performance</li>
+<li><strong>Validation set</strong> (optional): Used during training to tune hyperparameters</li>
+</ul>
+<p>⚠️ <strong>Critical:</strong> Never let test data influence training. This causes overfitting.</p>
+<h3 id="model-evaluation-metrics">Model Evaluation Metrics</h3>
+<p><strong>For Classification:</strong></p>
+<ul>
+<li><strong>Accuracy</strong>: (Correct predictions) / (Total predictions) - Use when classes are balanced</li>
+<li><strong>Precision</strong>: Of predicted positives, how many were correct? - Use when false positives are costly</li>
+<li><strong>Recall</strong>: Of actual positives, how many did we find? - Use when missing positives is costly</li>
+<li><strong>F1-Score</strong>: Harmonic mean of precision and recall - Good overall metric for imbalanced data</li>
+</ul>
+<p><strong>For Regression:</strong></p>
+<ul>
+<li><strong>MAE</strong> (Mean Absolute Error): Average |prediction - actual|</li>
+<li><strong>RMSE</strong> (Root Mean Squared Error): Penalizes large errors more than MAE</li>
+<li><strong>R²</strong>: Proportion of variance explained (0-1; higher is better)</li>
+</ul>
+<h3 id="overfitting-vs-underfitting">Overfitting vs. Underfitting</h3>
+<table>
+<thead>
+<tr>
+<th>Problem</th>
+<th>Symptom</th>
+<th>Cause</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Overfitting</strong></td>
+<td>High train accuracy, low test accuracy</td>
+<td>Model too complex, too much training</td>
+<td>Regularization, less features, more data</td>
+</tr>
+<tr>
+<td><strong>Underfitting</strong></td>
+<td>Low accuracy on both train and test</td>
+<td>Model too simple</td>
+<td>Increase complexity, add features</td>
+</tr>
+</tbody>
+</table>
+<h3 id="feature-engineering">Feature Engineering</h3>
+<p>Creating better features improves model performance more than choosing a different algorithm.</p>
+<p><strong>Common techniques:</strong></p>
+<ul>
+<li><strong>Scaling</strong>: Normalize features to similar ranges (StandardScaler, MinMaxScaler)</li>
+<li><strong>Encoding</strong>: Convert categorical variables to numbers</li>
+<li><strong>Feature creation</strong>: Combine existing features (e.g., age groups, polynomial features)</li>
+<li><strong>Feature selection</strong>: Remove irrelevant features</li>
+</ul>
+<h3 id="workflow-for-building-ml-models">Workflow for Building ML Models</h3>
+<ol>
+<li><strong>Understand the problem</strong> - What are we predicting? Is it regression or classification?</li>
+<li><strong>Load and explore data</strong> - Visualize, check for missing values, understand distributions</li>
+<li><strong>Prepare data</strong> - Handle missing values, scale features, encode categorical variables</li>
+<li><strong>Split data</strong> - Separate training and test sets</li>
+<li><strong>Choose model</strong> - Start simple (linear regression, decision tree), then try complex</li>
+<li><strong>Train model</strong> - Fit on training data</li>
+<li><strong>Evaluate</strong> - Check performance on test set</li>
+<li><strong>Tune hyperparameters</strong> - Adjust model settings to improve performance</li>
+<li><strong>Iterate</strong> - Try different features, algorithms, or parameters</li>
+</ol>
+<hr />
+<h2 id="common-algorithms-overview">Common Algorithms Overview</h2>
+<h3 id="linear-regression">Linear Regression</h3>
+<ul>
+<li><strong>Use when:</strong> Predicting continuous values with linear relationship</li>
+<li><strong>Pros:</strong> Simple, interpretable, fast</li>
+<li><strong>Cons:</strong> Assumes linear relationship; poor with non-linear data</li>
+<li><strong>Library:</strong> <code>sklearn.linear_model.LinearRegression</code></li>
+</ul>
+<h3 id="logistic-regression">Logistic Regression</h3>
+<ul>
+<li><strong>Use when:</strong> Binary or multi-class classification</li>
+<li><strong>Pros:</strong> Simple, interpretable, produces probability scores</li>
+<li><strong>Cons:</strong> Assumes linear separation between classes</li>
+<li><strong>Library:</strong> <code>sklearn.linear_model.LogisticRegression</code></li>
+</ul>
+<h3 id="decision-trees">Decision Trees</h3>
+<ul>
+<li><strong>Use when:</strong> Both regression and classification; interpretability matters</li>
+<li><strong>Pros:</strong> Handles non-linear relationships, interpretable</li>
+<li><strong>Cons:</strong> Prone to overfitting, unstable</li>
+<li><strong>Library:</strong> <code>sklearn.tree.DecisionTreeClassifier/Regressor</code></li>
+</ul>
+<h3 id="random-forest">Random Forest</h3>
+<ul>
+<li><strong>Use when:</strong> Need robust predictions without deep tuning</li>
+<li><strong>Pros:</strong> Handles non-linear relationships, less overfitting than single trees</li>
+<li><strong>Cons:</strong> Less interpretable, slower prediction</li>
+<li><strong>Library:</strong> <code>sklearn.ensemble.RandomForestClassifier/Regressor</code></li>
+</ul>
+<h3 id="support-vector-machines-svm">Support Vector Machines (SVM)</h3>
+<ul>
+<li><strong>Use when:</strong> High-dimensional data or clear margin between classes</li>
+<li><strong>Pros:</strong> Effective in high dimensions, memory efficient</li>
+<li><strong>Cons:</strong> Slow on large datasets, requires feature scaling</li>
+<li><strong>Library:</strong> <code>sklearn.svm.SVC/SVR</code></li>
+</ul>
+<h3 id="k-nearest-neighbors-knn">K-Nearest Neighbors (KNN)</h3>
+<ul>
+<li><strong>Use when:</strong> Small to medium datasets</li>
+<li><strong>Pros:</strong> Simple, no training required, non-parametric</li>
+<li><strong>Cons:</strong> Slow prediction, poor with high dimensions</li>
+<li><strong>Library:</strong> <code>sklearn.neighbors.KNeighborsClassifier/Regressor</code></li>
+</ul>
+<h3 id="naive-bayes">Naive Bayes</h3>
+<ul>
+<li><strong>Use when:</strong> Text classification, fast probabilistic classification</li>
+<li><strong>Pros:</strong> Fast, good for sparse data</li>
+<li><strong>Cons:</strong> Assumes feature independence (often violated)</li>
+<li><strong>Library:</strong> <code>sklearn.naive_bayes.GaussianNB/MultinomialNB</code></li>
+</ul>
+<h3 id="k-means-clustering">K-Means Clustering</h3>
+<ul>
+<li><strong>Use when:</strong> Need to group data into k clusters</li>
+<li><strong>Pros:</strong> Simple, fast, intuitive</li>
+<li><strong>Cons:</strong> Need to specify k; sensitive to initialization</li>
+<li><strong>Library:</strong> <code>sklearn.cluster.KMeans</code></li>
+</ul>
+<hr />
+<h2 id="practical-tips-for-success">Practical Tips for Success</h2>
+<ol>
+<li><strong>Start simple:</strong> Build with simple models first (linear regression, decision tree), then try complex models only if needed.</li>
+<li><strong>Understand your data:</strong> Spend time exploring data before building models. Garbage in = garbage out.</li>
+<li><strong>Feature engineering &gt; Algorithm selection:</strong> Better features almost always beat better algorithms.</li>
+<li><strong>Avoid data leakage:</strong> Test data must never influence training.</li>
+<li><strong>Scale your features:</strong> Most algorithms perform better with scaled features.</li>
+<li><strong>Monitor for overfitting:</strong> Check validation performance during training.</li>
+<li><strong>Use cross-validation:</strong> More robust evaluation than single train-test split.</li>
+<li><strong>Iterate, iterate, iterate:</strong> ML is experimental. Try different features, algorithms, parameters.</li>
+</ol>
+<hr />
+<h2 id="next-steps">Next Steps</h2>
+<h3 id="machine-hack">Machine Hack</h3>
+<p>This is a platform similar to Kaggle, but it is more focused on Indian audience. It has a lot of competitions and datasets that you can explore. Also the difficulty level of the competitions is a bit lower than Kaggle, so it is a good place to start if you are new to machine learning. Here is the link to the website: <a href="https://machinehack.com/">Machine Hack</a></p>
+<h3 id="kaggle">Kaggle</h3>
+<p>Once you feel comfortable with the basics of machine learning, visit Kaggle website and start exploring datasets. Kaggle is a great platform to practice your skills, participate in competitions, and learn from the community.<br />
+They have a inbuilt code editor and you can run your code in the browser without installing anything on your local machine.
+Also, they regularly host competitions where you can apply your skills to real-world problems. Here is the link to the website: <a href="https://www.kaggle.com/">Kaggle</a></p>
+<h3 id="some-more-links">Some more links</h3>
+<ul>
+<li><a href="https://machinelearningmastery.com/blog/">Machine Learning Mastery</a></li>
+<li><a href="https://github.com/josephmisiti/awesome-machine-learning">Awesome Machine Learning</a></li>
+</ul>
+<h2 id="maths-and-statistics">Maths and Statistics</h2>
+<p>Once you are comfortable with the basics of machine learning, and its libraries, you can start learning about the mathematical and statistical concepts that underpin machine learning algorithms.<br />
+This is important to understand how the algorithms work and how to tune them for better performance.</p>
+<p>The following youtube channel has every mathematical concept for machine learning explained in a simple way. <a href="https://www.youtube.com/@statquest">StatQuest with Josh Starmer</a></p>
+<p>Also, there is a Youtuber named Krish Naik who has a lot of videos on machine learning, data science, and deep learning. He explains the concepts in a simple way and also provides practical examples. Here is the link to his channel: <a href="https://www.youtube.com/@krishnaik06">Krish Naik</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["content.action.edit"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
